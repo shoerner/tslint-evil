@@ -1,0 +1,21 @@
+{
+  "name": "tslint-evil",
+  "version": "0.5.0",
+  "description": "tslint rules designed to make life difficult for developers",
+  "main": "rules/index.json",
+  "repository": "https://github.com/shoerner/tslint-evil",
+  "author": "Shawn Hoerner <shoerner+git@shoerner.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:local": "tsc --inlineSourceMap"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.10"
+  },
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tsutils": "^3.5.1",
+    "typescript": "^3.1.6"
+  }
+}
